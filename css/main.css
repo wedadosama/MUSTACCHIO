@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+@font-face{
+    src: url("../fonts/pollerone/pollerone-webfont.ttf");
+    font-family: Poller One;
+}
+header{
+    height: 50px;
+    background-color: #252525;
+}
+
+
+.logo{
+    
+    height: 100px;
+
+    padding-top: 5px;
+}
+.logo img{
+    display: block;
+    margin: 0 auto;
+    height: 90px;
+}
+
+nav{
+
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+    font-family: Arial Black;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:#0ba39c;
+}
+.active{
+    color:#0ba39c;
+}
+
+
+
+.banner{
+    height: 550px;
+    margin: 0 auto 2%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    height: 250px;
+    width: 52%;
+    position: absolute;
+    top: 120px;
+    left: 48%;
+}
+.banner-title{
+    background-color: white;
+    font-size: 20px;
+    font-family: Poller One;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.parag{
+    background-color: #252525;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.text-show{
+    
+    margin: 2% auto;
+}
+.text-show a{
+    background-color: #0ba39c;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+.text-show a:hover{
+    background-color: #1fc3bc;
+}
+.data{
+    
+    height: 300px;
+    width: 70%;
+    margin: 2% auto;
+}
+.data > div{
+    float: left;
+    margin-left: 2%;
+    width: calc(92% / 3);
+}
+.data img{
+    display: block;
+    width: 100%;
+    border: solid 2px black;
+    cursor: pointer;
+    opacity: .8;
+}
+.data span{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Poller One;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+.data img:hover{
+    opacity: 1;
+}
+
+
+
+footer{
+    height: 150px;
+    margin: 2% auto;
+    background-color: #252525;
+}
+.footer-text{
+    height: 150px;
+    float: left;
+    width: 50%;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 14px;
+}
+
+.footer-icons{
+    height: 150px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 53px;
+}
+
+.footer-icons a{
+    height: 44px;
+    width: 44px;
+    background-color: chocolate;
+    display: inline-block;
+    margin-right: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tw{
+    background-image: url("../images/icons/icon-twitter.jpg");
+}
+
+.face{
+    background-image: url("../images/icons/icon-facebook.jpg");
+}
+
+.plus{
+    background-image: url("../images/icons/icon-googleplus.jpg");
+}
+
+.ins{
+    background-image: url("../images/icons/icon-pinterest.jpg");
+}
+
+.tw:hover{
+    background-image: url("../images/icons/icon-twitter-hover.jpg");
+}
+.face:hover{
+    background-image: url("../images/icons/icon-facebook-hover.jpg");
+}
+
+.plus:hover{
+    background-image: url("../images/icons/icon-googleplus-hover.jpg");
+}
+
+.ins:hover{
+    background-image: url("../images/icons/icon-pinterest-hover.jpg");
+}
